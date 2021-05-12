@@ -1,0 +1,25 @@
+Design Architecture & Microservice Concept
+
+1. Frontend 
+    - Framework/Library: React.js
+    - State Management: React-Redux
+    - Middleware: Redux-Thunk
+    - Styling: Bootstrap React, SaSS Pre-Processor
+
+2. Backend
+    - Programming Language: Javascript
+    2.1 Orchestrator
+        - Program: Node.js + Express
+        - Docker File
+    2.2 Services
+        2.2.1 Microservice Users
+            - Program: Node.js + Express
+            - Auth: Json Web Token
+            - Hashing: Bcryptjs
+            - Docker File
+            - DB: MongoDB
+        2.2.2 Microservice Catalog
+            - Program: Node.js + Express
+            - Auth: Json Web Token
+            - Docker File
+            - DB: MongoDB
